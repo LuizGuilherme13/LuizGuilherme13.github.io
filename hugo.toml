@@ -1,7 +1,27 @@
 baseURL = 'https://luizguilherme13.github.io/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'luiz.dev'
 theme = 'papermod'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[menus]
+  [[menus.main]]
+    identifier = "inicio"
+    name = "Início"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    identifier = "posts"
+    name = "Posts"
+    pageRef = "/posts/"
+    weight = 20
+
+  [[menus.main]]
+    identifier = "tags"
+    name = "Tags"
+    pageRef = "/tags/"
+    weight = 30
