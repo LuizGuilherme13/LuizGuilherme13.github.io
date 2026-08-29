@@ -8,7 +8,7 @@ tags = ['projeto', 'estudos']
 categories = ['Projeto']
 
 ShowToc = true
-TocOpen = false
+TocOpen = true
 ShowReadingTime = true
 ShowBreadCrumbs = true
 ShowPostNavLinks = true

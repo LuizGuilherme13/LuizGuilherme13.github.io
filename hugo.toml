@@ -1,5 +1,5 @@
 baseURL = 'https://luizguilherme13.github.io/'
-locale = 'en-us'
+locale = 'pt-br'
 title = 'luiz.dev'
 theme = 'papermod'
 
